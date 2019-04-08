@@ -1,3 +1,3 @@
 # BBC Clone
 
-Static site: [plastic-crook.surge.sh](plastic-crook.surge.sh)
+Static site: [plastic-crook.surge.sh](http://plastic-crook.surge.sh)
