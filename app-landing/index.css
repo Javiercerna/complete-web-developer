@@ -1,0 +1,46 @@
+.navbar.navbar-light {
+    background-color: #FBF7FD;
+}
+
+.jumbotron {
+    background-image: url('./jumbotron-background.jpeg');
+    background-size: cover;
+}
+
+.jumbotron .input-group {
+    margin-right: 10px;
+}
+
+section.main-features {
+    padding-bottom: 60px;
+}
+
+section.main-features i {
+    margin-right: 10px;
+}
+
+section.main-features .features-introduction {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section.main-features .features-introduction p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #00FFFF;
+}
+
+footer .download-information {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+footer .download-information p{
+    font-size: 20px;
+}
+
+footer .download-information img {
+    width: 200px;
+}
