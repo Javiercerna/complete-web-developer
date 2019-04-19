@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 h1 {
     font-family: serif;
     font-weight: 600 !important;
@@ -315,4 +319,33 @@ section .container.form-container a.btn {
 section .container.form-container a.btn:hover {
     background-color: #F34123;
     border-color: #F34123;
+}
+
+.fade-left {
+    opacity: 0;
+    transform: translate(-500px, 0);
+    transition: all 2s;
+}
+
+.fade-bottom {
+    opacity: 0;
+    transform: translate(0, 500px);
+    transition: all 2s;
+}
+
+.fade-top {
+    opacity: 0;
+    transform: translate(0, -500px);
+    transition: all 2s;
+}
+
+.fade-right {
+    opacity: 0;
+    transform: translate(500px, 0);
+    transition: all 2s;
+}
+
+.fade.visible {
+    opacity: 1 !important;
+    transform: translate(0, 0);
 }
