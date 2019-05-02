@@ -1,0 +1,10 @@
+body {
+    padding-top: 100px;
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, p {
+    color: white;
+}
